@@ -1,0 +1,88 @@
+/* ===========
+    Imports
+============ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@400;700&display=swap');
+
+/* ===============
+    Global Style
+================ */
+
+:root {
+    --primary-background: #eaebed;
+    --secondary-background: #687087;
+    --primary-font: #333c45;
+    --secondary-font: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-background);
+}
+
+/* ==============
+    Main Style
+============== */
+
+main {
+    max-width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+img {
+    width: 275px;
+}
+
+main div {
+    text-align: center;
+    color: var(--primary-font);
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 4.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    margin-bottom: 35px;
+    line-height: 1.4;
+}
+
+.small {
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--secondary-background);
+    color: var(--secondary-font);
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,18 @@
+{
+  "name": "1-intro",
+  "version": "1.0.0",
+  "description": "pirmasis rimtesnis projektas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4002 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html"
+  ],
+  "author": "zilva",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
